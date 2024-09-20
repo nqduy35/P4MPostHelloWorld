@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:AAS="http://www.eclipse.org/papyrus/AAS" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="__Xz3YHdMEe-szfmu5a1XUA" name="HelloWorld">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="__e1scHdMEe-szfmu5a1XUA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_A1y4UHdNEe-szfmu5a1XUA" name="Assets">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Az3lsHdNEe-szfmu5a1XUA" name="MyAsset"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DsHlMHdNEe-szfmu5a1XUA" name="AASs">
+      <packagedElement xmi:type="uml:Class" xmi:id="_CoN4MHdNEe-szfmu5a1XUA" name="AASMyAsset">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_GqYtIHdNEe-szfmu5a1XUA" name="Basic">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_ISTGIHdNEe-szfmu5a1XUA" name="SayHello"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_L_4LIHdNEe-szfmu5a1XUA" name="Addition">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hSUOAHdNEe-szfmu5a1XUA" name="IntegerA">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_i3vTsHdNEe-szfmu5a1XUA" name="IntegerB" visibility="public">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="__ycckHdaEe-szfmu5a1XUA" name="Print">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_EvHK4HdbEe-szfmu5a1XUA" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_ZaelsHdmEe-szfmu5a1XUA" name="Subtraction">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_c82gQHdmEe-szfmu5a1XUA" name="FloatA">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_iAxtIHdmEe-szfmu5a1XUA" name="FloatB">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedParameter>
+          </ownedOperation>
+        </nestedClassifier>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GqjFMHdNEe-szfmu5a1XUA" name="Reference6"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ISaa4HdNEe-szfmu5a1XUA" name="Reference7"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="__zdwQXdaEe-szfmu5a1XUA" name="Reference8"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZbpDUHdmEe-szfmu5a1XUA" name="Reference9"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__bUeYHdMEe-szfmu5a1XUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__bbMEHdMEe-szfmu5a1XUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/AAS#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://AAS_PROFILE/aas.profile.uml#_NbERgI7QEeqdQ5EKLtW6Vg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__d4qMHdMEe-szfmu5a1XUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__d5RQHdMEe-szfmu5a1XUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.omg.org/spec/BPMNProfile/20121112/#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://BPMN_PROF/bpmn.profile.uml#_wrG1oHwkEeOWLfCz6n-rOA"/>
+    </profileApplication>
+  </uml:Model>
+  <AAS:Asset xmi:id="_A18CQHdNEe-szfmu5a1XUA" base_Package="_A1y4UHdNEe-szfmu5a1XUA"/>
+  <AAS:Asset xmi:id="_A2DXAHdNEe-szfmu5a1XUA" base_Class="_Az3lsHdNEe-szfmu5a1XUA"/>
+  <AAS:AssetAdministrationShell xmi:id="_Codv0HdNEe-szfmu5a1XUA" base_Class="_CoN4MHdNEe-szfmu5a1XUA" asset="_A2DXAHdNEe-szfmu5a1XUA">
+    <endpoint xmi:type="AAS:AASEndpoint" xmi:id="_Uz_FEHdNEe-szfmu5a1XUA" address="127.0.0.1" port="11111"/>
+  </AAS:AssetAdministrationShell>
+  <AAS:AssetAdministrationShell xmi:id="_DsMdsHdNEe-szfmu5a1XUA" base_Package="_DsHlMHdNEe-szfmu5a1XUA"/>
+  <AAS:Submodel xmi:id="_GqhQAHdNEe-szfmu5a1XUA" base_Class="_GqYtIHdNEe-szfmu5a1XUA" kind="Instance" base_HasKind_Class="_GqYtIHdNEe-szfmu5a1XUA" semanticId="_GqtdQHdNEe-szfmu5a1XUA" base_HasSemantics_Class="_GqYtIHdNEe-szfmu5a1XUA"/>
+  <AAS:Reference xmi:id="_GqtdQHdNEe-szfmu5a1XUA" base_Class="_GqjFMHdNEe-szfmu5a1XUA"/>
+  <AAS:Operation xmi:id="_ISZz0HdNEe-szfmu5a1XUA" kind="Instance" semanticId="_ISdeMHdNEe-szfmu5a1XUA" base_Operation="_ISTGIHdNEe-szfmu5a1XUA"/>
+  <AAS:Reference xmi:id="_ISdeMHdNEe-szfmu5a1XUA" base_Class="_ISaa4HdNEe-szfmu5a1XUA"/>
+  <AAS:Operation xmi:id="_L_6AUHdNEe-szfmu5a1XUA" kind="Instance" semanticId="_ISdeMHdNEe-szfmu5a1XUA" base_Operation="_L_4LIHdNEe-szfmu5a1XUA"/>
+  <AAS:Operation xmi:id="__zdwQHdaEe-szfmu5a1XUA" kind="Instance" semanticId="__zgzkHdaEe-szfmu5a1XUA" base_Operation="__ycckHdaEe-szfmu5a1XUA"/>
+  <AAS:Reference xmi:id="__zgzkHdaEe-szfmu5a1XUA" base_Class="__zdwQXdaEe-szfmu5a1XUA"/>
+  <AAS:Operation xmi:id="_ZbocQHdmEe-szfmu5a1XUA" kind="Instance" semanticId="_ZbsGoHdmEe-szfmu5a1XUA" base_Operation="_ZaelsHdmEe-szfmu5a1XUA"/>
+  <AAS:Reference xmi:id="_ZbsGoHdmEe-szfmu5a1XUA" base_Class="_ZbpDUHdmEe-szfmu5a1XUA"/>
+</xmi:XMI>
